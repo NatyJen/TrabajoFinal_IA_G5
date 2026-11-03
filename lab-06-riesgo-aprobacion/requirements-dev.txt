@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest>=8
+httpx2>=2.7             # las pruebas simulan la red del SDK de OpenAI con httpx2.MockTransport
